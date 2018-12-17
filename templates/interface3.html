@@ -1,0 +1,70 @@
+<html>
+
+<head>
+	<title>Matchy-Matchy</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style_3a.css') }}">
+</head>
+
+<script type="text/javascript"></script>
+
+<body>
+<!-- Main Container -->
+<div class="container">
+	<!-- Navigation -->
+	<header>
+		<h1 class="title">Matchy-Matchy</h1>
+	</header>
+	<section>
+		<p></p>
+		<a>SCORE BOARD</a>
+		<p></p>
+		 <div class="flex-container">
+         <div>
+         	<p class = "number">1</p>
+         <img src="{{ inside }}" alt="" width="100" height="100" class="img1"/>
+         </div>
+
+         <div>
+         <p class = "number">2</p>
+         <img src="{{ inside2 }}" alt="" width="100" height="100" class="img1"/>
+         </div>
+
+         <div>
+         <p class = "number">3</p>
+         <img src="{{ inside3 }}" alt="" width="100" height="100" class="img1"/>
+         </div>
+
+         <div>
+         <p class = "number">4</p>
+         <img src="{{ inside4 }}" alt="" width="100" height="100" class="img1"/>
+         </div>
+         
+         <div>
+         <p class = "number">5</p>
+         <img src="{{ inside5 }}" alt="" width="100" height="100" class="img1"/>
+         </div>
+
+         </div>
+		<p></p>
+		<p class = "score">Score: {{ percentage }}% </p>
+		<p class = "statement">{{ statement }}</p>
+        <p></p>
+		<img src="/webcam" alt "" width="800" height="480" class="img1">
+		<p></p>
+		<img src="/webcam2" alt "" width="800" height="480" class="img1">
+		<p></p>
+        <img src="/webcam3" alt "" width="800" height="480" class="img1">
+        <p></p>
+        <img src="/webcam4" alt "" width="800" height="480" class="img1">
+        <p></p>
+        <img src="/webcam5" alt "" width="800" height="480" class="img1">
+
+	</section>
+
+	<section class="subtitle3" id="gameplay">
+		<a class="button" href="/">BACK TO MAIN PAGE</a>
+	</section>
+	
+	<div class="creator">&copy;2018 - TEAM ROCKET</div>
+</div>
+</body>

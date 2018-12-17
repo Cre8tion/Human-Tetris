@@ -1,0 +1,51 @@
+<html>
+
+<head>
+	<title>Matchy-Matchy</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style_1a.css') }}">
+</head>
+
+<script type="text/javascript"></script>
+
+<body>
+<!-- Main Container -->
+<div class="container">
+	<!-- Navigation -->
+	<header>
+		<h1 class="title">Matchy-Matchy</h1>
+		<nav style="display: flex; justify-content: space-between;">
+				<img src="{{ url_for('static',filename='tetris.gif') }}" alt="" width="120" height="80" class="img1_1"/>
+				<div>
+					<li><a href="#about" class = "sections">ABOUT</a></li>
+					<p></p>
+					<li><a href="#tutorial" class = "sections">TUTORIAL</a></li>
+				</div>
+				
+				<img src="{{ url_for('static',filename='tetris2.gif') }}" alt="" width="120" height="80" class="img1_2"/>
+		</nav>
+	</header>
+
+	<section class="subtitle1" id="about">
+	    <h2 class="about_header">OUR GAME</h2>
+	    <p class="about_tagline">Connect you and your friends together</p>
+	    <video width="550" height="300" controls="controls">
+	    	<source src="{{ url_for('static',filename='Comp 1.mp4') }}" type="video/mp4" />
+	    </video>
+  	</section>
+
+  	<section class="subtitle2" id="tutorial">
+	  	<h3 class="tutorial_header">TUTORIAL</h3>
+	  	<p></p>
+	  	<p class="tutorial_tagline">Read the Instructions to find out more!</p>
+		<img src="{{ url_for('static',filename='tutorial.jpg') }}" alt="" width="550" class="img1"/>
+	</section>
+
+	<section class="subtitle3" id="gameplay">
+		<h4 class="gameplay_header">START THE GAME WITH A FRIEND!!!</h4>
+		<a class="button" href="/game">PLAY</a>
+	</section>
+
+	<div class="creator">&copy;2018 - TEAM ROCKET</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+/*
+<svg height="32" width="32"
+.custom-cur {
+	cursor: url("cursortrial.png");
+}
+*/
+
+/* Body */
+body{
+	font-family: sans-serif;
+	background-color: #151515;
+	margin-right: auto;
+	margin-left: auto;
+	font-style: normal;
+	font-weight: 200;
+}
+
+/* Container */
+.container{
+	width: 90%;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #505050;
+}
+
+/* Navigation */
+header{
+	width: 100%;
+	height: 180px;
+	background-color: #1F1F1F;
+	opacity: 70%;
+	border-bottom: 10px #505050;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+section{
+	margin-left: auto;
+	margin-right: auto;
+}
+.title{
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 5px;
+}
+
+nav {
+	text-align: center;
+	padding-top: 20px;
+}
+header nav div {
+	list-style: none;
+}
+nav div a {
+	color: #FFFFFF;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+nav div a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #FFEA00;
+}
+
+
+.subtitle1 {
+	width: 100%;
+	height: 450px;
+	background-color: #2F2F2F;
+	border-bottom: 10px #505050;
+	opacity: 70%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.about_header{
+	color: #E4E4E4;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	letter-spacing: 3px;
+}
+.about_tagline {
+	color: #B5B5B5;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin-top: 5px;
+}
+
+video {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+
+.subtitle2 {
+	width: 100%;
+	height: 1400px;
+	background-color: #1F1F1F;
+	opacity: 30%;
+	border-bottom: 10px #505050;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.tutorial_header{
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	letter-spacing: 3px;
+}
+.tutorial_tagline{
+	color: #E4E4E4;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin-top: 5px;
+}
+
+.subtitle3{
+	width: 100%;
+	height: 250px;
+	background-color: #2F2F2F;
+	border-bottom: 10px #505050;
+	opacity: 70%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.gameplay_header{
+	color: #E2E2E2;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	letter-spacing: 3px;
+}
+
+.button {
+	width: 150px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+	padding-left: 70px;
+	letter-spacing: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.2s linear;
+	text-decoration: none;
+	display: block;
+
+}
+
+.creator {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
+.sections {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

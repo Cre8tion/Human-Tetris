@@ -1,0 +1,30 @@
+<html>
+
+<head>
+	<title>Matchy-Matchy</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style_2a.css') }}">
+</head>
+
+
+<body>
+<!-- Main Container -->
+<div class="container">
+	<!-- Navigation -->
+<!-- 	<header>
+		<h1 class="title">Matchy-Matchy</h1>
+	</header> -->
+	<section>
+		<p class="demo" id="demo"> </p>
+		<script type=text/javascript src="{{
+  url_for('static', filename='timer.js') }}"></script>
+		<img id="bg" src="{{ url_for('video_feed') }}">
+	</section>
+
+	<section class="subtitle3" id="gameplay">
+		<a class="button" href="/result">CHECK YOUR SCORE!</a>
+		<a class="button2" href="/">Back</a>
+	</section>
+	
+	<div class="creator">&copy;2018 - TEAM ROCKET</div>
+</div>
+</body>
