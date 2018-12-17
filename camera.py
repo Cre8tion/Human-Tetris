@@ -2,8 +2,6 @@ import cv2
 import numpy as np
 import backend
 
-#import module
-
 class VideoCamera(object):
     def __init__(self):
         # Using OpenCV to capture from device 0. If you have trouble capturing

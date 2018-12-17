@@ -1,19 +1,3 @@
-//var timeleft = 10;
-//var i = 0;
-
-//var timer = setInterval(function() {
-
-  
-  // Display the result in the element with id="demo"
-//  document.getElementById("demo").style.color = "white"
-//  document.getElementById("demo").innerHTML = timeleft + "s ";
-//  timeleft--; 
-//  if (timeleft == 0) {
-//     timeleft = 5
-//     }
-
-// }, 1000);
-
 var i = 0;
 var intervalId;
 
