@@ -24,10 +24,19 @@ https://github.com/log0/video_streaming_with_flask_example
 *Addition of webcam usage to allow real-time gameplay*
 
 ### Usage
-1. Install Python dependencies: cv2, flask
+1. Install Python dependencies: cv2, flask, numpy
 2. Run "python main.py"
 3. Navigate the browser to the local webpage (According to terminal session)
 
+### Information
+1. All Images are in 720p.
+2. Templates can be replaced with your own images.
+3. ...
 
 ### Team Members:
 
+
+### Future Changes:
+1. A new scoring system for better accuracy of results
+2. An additional folder to save new images of each gameplay
+3. TBC...
