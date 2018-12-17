@@ -12,9 +12,10 @@ If any part of the body touches the black lines of template, it will be consider
 
 
 ### Tutorial
-![Tutorial](/static/tutorial.jpg)
-Format: ![Alt Text](url)
 
+![Tutorial](/static/tutorial.jpg)
+
+Feel Free to watch the tutorial video to find out more!
 
 ### Credits
 http://blog.miguelgrinberg.com/post/video-streaming-with-flask
