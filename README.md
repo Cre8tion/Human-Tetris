@@ -1,4 +1,4 @@
-#### Human-Tetris a.k.a Matchy Matchy
+# Human-Tetris a.k.a Matchy Matchy
 A software-based Hole-In-The-Wall Game that uses python and flask as an web application.
 First-year university group project which aims to promote social interaction among strangers in bus stops.
 
@@ -29,5 +29,5 @@ https://github.com/log0/video_streaming_with_flask_example
 3. Navigate the browser to the local webpage (According to terminal session)
 
 
-Team Members:
+### Team Members:
 
