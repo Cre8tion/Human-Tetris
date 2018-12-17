@@ -12,7 +12,7 @@ If any part of the body touches the black lines of template, it will be consider
 
 
 ### Tutorial
-![Tutorial](/images/tutorial.jpg)
+![Tutorial](/static/tutorial.jpg)
 Format: ![Alt Text](url)
 
 
