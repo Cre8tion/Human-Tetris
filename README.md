@@ -19,9 +19,9 @@ Feel Free to watch the tutorial video to find out more!
 
 ### Credits
 http://blog.miguelgrinberg.com/post/video-streaming-with-flask
-Basic Code & Knowledge that inspired me.
+*Basic Code & Knowledge that inspired me.*
 https://github.com/log0/video_streaming_with_flask_example
-Addition of webcam usage to allow real-time gameplay
+*Addition of webcam usage to allow real-time gameplay*
 
 ### Usage
 1. Install Python dependencies: cv2, flask
